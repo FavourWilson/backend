@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",                     // modern JS output
+    "module": "commonjs",                // Node.js style modules
+    "esModuleInterop": true,             // allow default imports
+    "resolveJsonModule": true,           // allow importing .json files
+    "outDir": "./dist",                  // compiled JS output
+    "strict": true,                      // enable strict type checks
+    "skipLibCheck": true                 // optional, skip type checking of libs
+  },
+  "include": ["./**/*.ts"],              // include all TS files in project
+  "exclude": ["node_modules"]            // exclude dependencies
+}
