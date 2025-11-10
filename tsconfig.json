@@ -6,8 +6,9 @@
     "resolveJsonModule": true,
     "outDir": "./dist",
     "strict": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "rootDir": "."           // <-- include root files
   },
-  "include": ["src/**/*.ts", "index.ts"],   // only your source files
+  "include": ["*.ts", "**/*.ts"],   // include root TS files and subfolders
   "exclude": ["node_modules", "dist"]
 }
