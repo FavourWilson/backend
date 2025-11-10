@@ -2,8 +2,8 @@ import express from "express";
 import { ethers } from "ethers";
 import bodyParser from "body-parser";
 import dotenv from "dotenv";
-import vaultAbi from "./abis/CorporateVault.json";
-import usdxAbi from "./abis/USDx.json";
+import vaultAbi from "../abis/CorporateVault.json";
+import usdxAbi from "../abis/USDx.json";
 import cors from "cors";
 
 dotenv.config();
